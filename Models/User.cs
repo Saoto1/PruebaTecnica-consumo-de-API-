@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace PruebaTecnica_consumo_de_API_.Models
 {
- public   class User
+ public  class User
     {
 
-         int Id { get; set; }
+        public  int id { get; set; }
 
-        string Name { get; set; }
-        string Email { get; set; }
-        string Gender { get; set; }
-        string Status { get; set; }
+        public string name { get; set; }
+        public string email { get; set; }
+        public string gender { get; set; }
+        public string status { get; set; }
 
 
 
