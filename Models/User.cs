@@ -9,12 +9,12 @@ namespace PruebaTecnica_consumo_de_API_.Models
  public  class User
     {
 
-        public  int id { get; set; }
+        public  int Id { get; set; }
 
-        public string name { get; set; }
-        public string email { get; set; }
-        public string gender { get; set; }
-        public string status { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Gender { get; set; }
+        public string Status { get; set; }
 
 
 
